@@ -1,3 +1,5 @@
+FROM scratch
+
 RUN service httpd stop
 
 COPY index.html /var/www/html/
